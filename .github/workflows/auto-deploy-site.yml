@@ -44,6 +44,7 @@ jobs:
       - name: Repair build artifact
         run: |
           sudo chmod -R 777 ./_site
+          cp ./sites/dist/assets/_plugin-vue*.js ./_site/assets
           cp ./_site/index.html ./_site/404.html
           sed -i 's/\/static/\/tiny-vue-web-doc\/static/' ./_site/static/js/design-common.js
           sh ./sites/cp-component-md.sh

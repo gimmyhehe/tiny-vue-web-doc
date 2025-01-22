@@ -6,13 +6,13 @@
   "type": "module",
   "scripts": {
     "pre": "node preSites.js && node releaseAlpha.js",
-    "build": "pnpm -F @opentinyvue/vue-docs build",
+    "build": "pnpm -F @opentinyvue/vue-docs build:mobile:page",
     "dev": "pnpm -F @opentinyvue/vue-docs start"
   },
   "keywords": [],
   "author": "",
   "dependencies": {
-    "@opentinyvue/vue-docs": "^3.21.0",
+    "@opentinyvue/vue-docs": "^3.21.4",
     "fs-extra": "^11.2.0",
     "@opentinyvue/vue-locale": "^3.21.0",
     "@opentinyvue/vue-input": "^3.21.0",

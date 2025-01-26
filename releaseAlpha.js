@@ -25,7 +25,7 @@ const findAllpage = (packagesPath) => {
       .replace(/@opentinyvue\/vue-vite-import/g, "@opentiny/vue-vite-import")
       .replace(/@opentinyvue\/vue-mobile/g, "@opentiny/vue-mobile")
       .replace(/@opentinyvue\/vue-theme-mobile/g, "@opentiny/vue-theme-mobile")
-      .replace(/\/tiny-vue\//g, "/tiny-vue-web-doc/")
+      .replace(/\/tiny-vue-web-doc\//g, "/tiny-vue-web-doc-mobile/")
       .replace("~1.0.0-alpha.6", "1.0.0-alpha.6")
       .replace(/\.\/examples\/sites\//g, "./sites/");
 
